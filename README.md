@@ -2,8 +2,11 @@
 
 Projeto Maven (Java 21) com Cucumber 7 e JUnit 5 para testes BDD dos pedidos da hamburgueria Peppa Lanches.
 
+## Logs de teste
+- Saída do último `mvn test`: arquivo local `mvnResultado.txt` (raiz do projeto, sem link externo).
+
 ## Requisitos
-- JDK 21 (ex.: Temurin 21)
+- JDK 21
 - Maven ou Maven Daemon (`mvnd`) no `PATH`
 
 ## Como rodar os testes
@@ -22,7 +25,7 @@ mvnd test
 - `src/main/java/peppa/hamburgueria/`
   - `CardapioService.java`
   - `PedidoService.java`
-- `src/test/resources/features/pedidos.feature`: cenários em Gherkin (PT-BR).
+- `src/test/resources/features/pedidos.feature`: cenários em Gherkin.
 - `src/test/java/runner/RunnerTest.java`: runner JUnit Platform + Cucumber.
 - `src/test/java/steps/PedidoSteps.java`: steps em PT-BR usando `io.cucumber.java.pt.*`.
 
@@ -34,4 +37,4 @@ mvnd test
 
 ## Git ignore
 - `target/` (build Maven)
-- `.idea/`, `*.iml` (configuração de IDE)***
+- `.idea/`, `*.iml` (configuração de IDE)
