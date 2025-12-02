@@ -27,7 +27,7 @@ mvnd test
   - `PedidoService.java`
 - `src/test/resources/features/pedidos.feature`: cenários em Gherkin.
 - `src/test/java/runner/RunnerTest.java`: runner JUnit Platform + Cucumber.
-- `src/test/java/steps/PedidoSteps.java`: steps em PT-BR usando `io.cucumber.java.pt.*`.
+- `src/test/java/steps/PedidoSteps.java`: steps usando `io.cucumber.java.pt.*`.
 
 ## Notas dos testes
 - Cenários cobrem: item existente, item inexistente, quantidade inválida, desconto de 10%, tempo estimado.
