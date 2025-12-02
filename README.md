@@ -3,7 +3,7 @@
 Projeto Maven (Java 21) com Cucumber 7 e JUnit 5 para testes BDD dos pedidos da hamburgueria Peppa Lanches.
 
 ## Logs de teste
-- Saída do último `mvn test`: arquivo local `mvnResultado.txt` (raiz do projeto, sem link externo).
+- Saída do último `mvn test`: arquivo local `mvnResultado.txt`
 
 ## Requisitos
 - JDK 21
