@@ -17,4 +17,9 @@ public class CardapioService {
     public double precoDe(String nome) {
         return precos.getOrDefault(nome, 0.0);
     }
+
+    public Map<String, Double> getPrecos() {
+        return new HashMap<>(precos);
+    }
 }
+
